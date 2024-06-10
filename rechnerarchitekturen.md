@@ -274,7 +274,7 @@
     - **Stack Pointer**: Hält die Adresse des Stack-Anfangs, wo Daten nach dem FIFO-Prinzip abgelegt werden.
     - **Index Register**: Wird als Index bei Speicherzugriffen verwendet, CPU-abhängig.
 
-### Übersicht der Grundlegenden Adressierungsarten (Folie 41 und 42)
+### Grundlegende Adressierungsarten
 
 #### Immediate Addressing
 
@@ -476,7 +476,7 @@ Hier sind die Zusammenfassungen der Folien 55 bis 63 aus dem hochgeladenen Folie
 - **Vorteile**: Reduziert die Anzahl der notwendigen Lese- und Schreiboperationen, was zu einer deutlichen
   Geschwindigkeitssteigerung führt.
 
-### AVX (Advanced Vector Extensions))
+### AVX (Advanced Vector Extensions)
 - **Registergrößen**:
     - **SSE (AVX 128 Bit)**: Ursprüngliche Erweiterung.
     - **AVX 256 Bit**: Vergrößerte Register für mehr Parallelität.
@@ -488,3 +488,7 @@ Hier sind die Zusammenfassungen der Folien 55 bis 63 aus dem hochgeladenen Folie
     - Nur Vielfache der Registergröße können berechnet werden.
     - Beispiel: Bei 18 `int16` können nur 16 in einem SIMD-Register berechnet werden, die restlichen 2 müssen normal
       berechnet werden.
+
+
+Big Endian -> 01 02 03 04
+Little Endian -> 04 03 02 01
